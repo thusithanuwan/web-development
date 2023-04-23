@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+
+    scroll-snap-type: y mandatory;
+}
+
+body{
+    color: #171a20;
+    background-color: #ffffff;
+
+}
+
+/* header */
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+/* banner*/
+#top{
+    height: 52px;
+    background-color: #ffffff;
+    
+}
+#top section{
+    height: 100%;
+    width: 100%;
+    padding: 16px;
+    line-height: 20px;
+}
+#top section div{
+    text-align: center;
+    font-weight: 400;
+    color: #393c41;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    width: 100%;
+}
+
+/* logo */
+
+.header >a  {
+    height: 32px;
+    width: 152px;
+    padding-left: 32px;
+    color: inherit ;
+    display: flex;
+    align-items: center;
+
+}
+#logo{
+    height: 24px;
+    width: 120px;
+}
+
+/* navigation bar  list list-element*/
+nav > ul > li {
+    display: inline-block;
+}
+
+/* center list */
+
+.center-desktop > ul > li > a{
+    width: 91.34px;
+    height: 32px;
+    line-height: 20px;
+    padding: 4px 8px;
+}
+.center-desktop > ul > li > a > span{
+    display: inline-block;
+    margin: 0 8px;
+}
+
+/* right list */
+
+.right-desktop > ul {
+    padding-right: 32px;
+}
+.right-desktop > ul > li > a {
+    width: 91.34px;
+    height: 32px;
+    padding: 4px 8px;
+}
+.right-desktop > ul > li > a > span{
+    display: inline-block;
+    max-width: 0 8px    ;
+}
+
+/* main*/
+
+main{
+    width: 100%;
+}
+
+section{
+    height: 100vh;
+    background-size: cover;
+    background-position: center  ;
+    display: flex;
+    justify-content: center;
+    scroll-snap-align: end;
+    width: 100%;
+    z-index: 2;
+
+
+}
+.content{
+    position: sticky;
+    top: 176px;
+    margin-top: 176px;
+    margin-bottom: 16px;
+    height: calc(100vh - 300px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.content > div:first-child > h1 {
+    font-size: 40px;
+}
+.button{
+    width: 552px;
+    height: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.button > a {
+    width: 264px;
+    height: 40px;
+    text-decoration: none;
+    background-color: #171A20cc;
+    padding: 4px 24px;
+    color: white;   
+    border-radius: 5px;
+}
+.button > a > span {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.button > a:last-child{
+    background-color: #f4f4f4A6;
+    color: inherit;
+}
+
+#arrow{
+    width: 100%;
+}
+#arrow > svg{
+    position: relative;
+    fill: inherit;
+    animation: move 3s infinite ease-in-out;
+
+}
+
+@keyframes move{
+    0%{
+        margin-top: 0;
+    }
+    8%{
+        margin-top:10px;
+    }
+    16%{
+        margin-top:0px;
+    }
+    24%{
+        margin-top:10px;
+    }
+    32%{
+        margin-top:0px;
+    }
+    40%{
+        margin-top:10px;
+    }
+    48%{
+        margin-top:0;
+    }
+    to{
+        margin-top: 0;
+    }
+}
+
+
+
+

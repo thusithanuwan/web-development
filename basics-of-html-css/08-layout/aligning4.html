@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aligning</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        #outer-1,#outer-2{
+            background-color: yellow;
+            width: 500px;
+            height: 400px;
+        }
+        #child-1{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            color: white;
+            font-size: 1.5rem;
+            text-align: center;
+            position: relative;
+            float: right;
+            
+            
+
+        }
+        #child-2{
+            background-color: red;
+            font-size: 1.5rem;
+            position: relative;
+            float: right;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Aligning-4</h1>
+    <h2>Block within block</h2>
+    <div id="outer-1">
+        <div id="child-1">I am a block element</div>
+    </div>
+    <hr>
+    <h2>Inline within Block</h2>
+    <div id="outer-2">
+        <span id="child-2">I am inline element</span>
+    </div>
+
+    
+</body>
+</html>

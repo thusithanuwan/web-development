@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selection Related Psuedo Classes-3</title>
+    <style>
+        /* div > :not(p){
+            background-color: yellow;
+        } */
+        /* div > button:not(p){
+            background-color: red;
+        } */
+        :root{
+            /* font-family: sans-serif;
+            background-color: lightblue; */
+            --theme-color: green;
+        }
+        /* p{
+            background-color: var(--theme-color);
+        } */
+        input{
+            background-color: var(--theme-color);
+        }
+        div{
+            --b-color: red;
+        }
+        button{
+            background-color: var(--b-color);
+        }
+        
+
+
+    </style>
+
+</head>
+<body>
+    <h1>Selection Related Psuedo Classes-3</h1>
+    <div>
+        <p>I am a paragraph</p>
+        <button>I am a button</button> <br><br>
+        <input type="text" value="I am a text field">
+    </div>
+    <p>I am the second paragraph</p>
+</html>

@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Open-Sans',sans-serif;
+    font-size: 14px;
+}
+#header{
+    height: 64px;
+    background-color:#149777 ;
+    padding: 8px 0;
+} 
+.container{
+    width: 985px;
+    height: 100%;
+    margin: 0 auto;
+}
+#logo-container{
+    height: 100%;
+    float: left;
+}  
+.clearfix{
+    clear: both;
+}
+#logo-container div{
+    float: left;
+    height: 100%;
+}
+
+#logo{
+    position: relative;
+    top: 50%;
+    width: 104px;
+    transform: translateY(-50%);
+}
+#logo-container > div:nth-child(2){
+    font-weight: 800;
+    color: white;
+    position: relative; 
+    padding: 0 24px;  
+  
+}
+#logo-container > div:nth-child(2) > span{
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#logo-container > div:last-child div  button{
+    float: left;
+    height: 30px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: 1px solid #007168;
+    color: white;
+    cursor: pointer;
+
+}
+
+#logo-container > div:last-child div>button:first-child{
+    border-right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#logo-container > div:last-child div>button:last-child{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+                                                                            /* Menu Container */
+
+#menu-container{
+    /* background-color: yellow; */
+    /* width: 10%  ; */
+    height: 100%;
+    float: right;
+}
+#menu-container > div {
+    float: left;
+    height: 100%;
+    cursor: pointer;
+}
+#menu-container > div:first-child{
+    font-size: 12px;
+    margin-right: 24px;
+    color: white;
+}
+#menu-container > div:nth-child(2){
+    font-size: 12px;
+    color: white;
+    margin-right: calc(12px + 16px);
+}
+#menu-container > div:last-child{
+    background-color: #ffc800;
+    color: #673500;
+    font-weight: bold;
+    padding: 16px;
+    border-radius: 5px;
+}
+.menu-icon{
+    width: 32px;
+    height: 32px;
+    padding-right: 4px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    fill: white;
+}
+
+                                                                                /* search container */
+#search-container{
+    background-color:#149777 ;
+    height: 186px;
+
+}
+#search-container > .container{
+    /* background-color: yellow; */
+}
+#search-container > .container > div:first-child{
+    position: relative;
+
+    /* background-color: red; */
+    height: calc(60px + 16px + 8px);
+}
+#search-container > .container>div:last-child{
+    /* background-color: blue; */
+    width: calc(738px + 58px);
+    height: 58px;
+    margin: 0 auto;
+}
+
+#btn-all-of-srilanka{
+    position: absolute;
+    left: 50%;
+    bottom: 16px;
+    transform: translateX(-50%);
+    background-color:#10846f ;
+    display: flex;
+    border-radius: 30px;
+    padding: 4px;
+    color: white;
+    cursor: pointer;
+    
+}
+#btn-all-of-srilanka > svg{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    fill: white;
+    /* position: relative;
+    top: 50%;
+    transform: translateY(-50%); */
+}
+#input-container{
+    float: left;
+    background-color: white;
+    width: 738px;
+    height: 58px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    padding: 18px 24px;
+}
+#input-container > input{
+    /* background-color: yellow; */
+    font-size: 16px;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+#search-icon-container{
+    float: left;
+    background-color: white;
+    width: 58px;
+    height: 58px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    padding: 4px;
+
+}
+#search-icon-container button{
+    background-color: #ffc800;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    padding: 13px;
+}
+#search-icon-container svg{
+    fill: #673500;
+    width: 21px;
+    height: 21px;
+
+}
+#frmsearch{
+
+}

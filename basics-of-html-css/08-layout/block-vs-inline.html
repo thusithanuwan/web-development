@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block-vs-Inline Element</title>
+    <style>
+        #block{
+            background-color: red;
+        }
+        #outer-div{
+            height: 250px;
+            width: 250px;
+            background-color: green;
+        }
+        #inner-div{
+            background-color: yellow;
+        }
+        #span{
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Block-vs-Inline Element</h1>
+    Lorem ipsum dolat sit amrtn<div id="block">Block</div>
+    <div id="outer-div">
+        <div id="inner-div">
+            Text <br>
+            Text <br>
+            <span id="span">Inline</span>
+            <span id="span">Inline</span>
+            <span id="span">Inline</span>
+            <a href="">Somethig is here can u see that</a>
+        </div>
+    </div>
+
+    
+</body>
+</html>

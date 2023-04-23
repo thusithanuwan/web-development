@@ -1,0 +1,16 @@
+@font-face{
+    font-family: Gotham;
+    src: url(/font/GothamSSm-Book_Web.woff2);
+    font-weight: 500;
+}
+@font-face{
+    font-family: Gothem;
+    src: url(/font/GothamSSm-Medium_Web.woff2);
+    font-weight: 400;
+}
+html{
+    font-family: Gothem, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #171a20;
+}

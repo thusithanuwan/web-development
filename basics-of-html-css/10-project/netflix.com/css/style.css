@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Ubuntu', sans-serif;
+    color: #ffff;
+    background-color: black;
+}
+h1{
+   font-size: 48px;
+   font-weight: 700;
+}
+h2 {
+   font-size: 24px ;
+   font-weight: 400;
+}
+h3 {
+   font-size: 20px;
+   font-weight: 400;
+}
+.showcase-top{
+    height: 86px;
+    margin: 0 365.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo-div > svg{
+    width: 148px;
+    height: 40px;
+    fill: #E50914;
+}
+.btn{
+
+    text-align: center;
+    background-color: #E50914;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.showcase-center > form > button > svg {
+    height: ;
+}

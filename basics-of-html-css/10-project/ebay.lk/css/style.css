@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: Helvetica, sans-serif;
+}
+#header{
+    height: 97px;
+}
+#header-container{
+    width: 1187px;
+    height: 100%;
+    margin: 0 auto;
+}
+#top-container{
+    /* background-color: yellow; */
+    height: 31px;
+    font-size: 12px;
+}
+#left-container{
+    /* background-color: green; */
+    height: 100%;
+    float: left;
+}
+#right-container{
+    /* background-color: blue; */
+    height: 100%;
+    float: right;
+}
+                                                        /* Left Container */
+#left-container > div{
+    float: left;
+    height: 100%;
+}
+#left-container > div:first-child{
+
+}
+#left-container > div:nth-child(2){
+    padding: 0 9px 0 11px;
+}
+#left-container > div:last-child{
+    padding: 0 9px 0 11px;  
+
+}
+#left-container > div > span{
+    /* background-color: pink; */
+    padding: 3px 0 5px;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+                                                                /* Right Container */
+#right-container > div{
+    float: left;
+    height: 100%;
+}
+#right-container > div {
+    padding: 0 9px 0 11px;
+}
+#right-container > div > span{
+    padding: 3px 0 5px;
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+                                                                                /* Bottom Container */
+
+
+#bottom-container{
+    background-color: red;
+    height: 40px;
+    margin-top: 25px;
+
+}
+#bottom-container > div{
+    float: left;
+    height: 100%;
+
+}                                                                              
+ #logo{
+
+    width: 117px;
+    height: 100%;
+    margin: 0 5px 0 0;
+}     
+#bottom-container > div:first-child{
+ 
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+} 
+#bottom-container > div:nth-child(2){
+    margin: 0 5px 0 0;
+    font-size: 14px;
+    width: 75px;
+    height: 30px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}    
+#bottom-container > div:last-child{
+    width: 868px;
+}
+
+#bottom-container > div:last-child > div{
+    float: left;
+    margin: 0 5px 0 0;
+
+}
+
+#search{
+    background-color: #3665f3;
+    height: 100%;
+    color: white;
+    font-size: 14px;
+    padding: 8px 16px;
+    width: 160px;
+    text-align: center;
+    float: right;
+
+}    
+#advanced{
+    width: 60px;
+    font-size: 12px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}   
+#search-container{
+    width: calc(530px + 160px);
+    height: 100%;
+    border: 2px solid black;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#search-container div{
+    float: left;
+} 
+#search-container> input{
+}    
+#search-container> div{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+}     
+#input-container {
+    width: 70%;
+}    
+#input-container input {
+    width: 100%;
+}                                                     
+
+

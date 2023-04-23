@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Col-Floats</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        html,body,h3{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            /* position: relative; */
+        }
+
+        .col{
+            /* position: absolute; */
+            width: 33.33%;
+            float: left;
+        }
+        .col:first-of-type{
+            background-color: yellow;
+            float: right;   /*can changing column order to some extent*/
+        }
+        .col:nth-of-type(2){
+            background-color: green;
+            /* left: 200px; */
+        }
+        .col:last-of-type{
+            background-color: blue;
+            /* left: 400px; */
+        }
+        .clearfix{
+            clear: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="col " >
+        <h3>Column-1</h3>
+        Lorem <span>ipsum</span> dolor sit amet <b>Hi!</b> consectetur  <em>Hello!</em> adipisicing elit. Quia cum, voluptate ab ut asperiores vero iusto, quaerat quae sint veritatis eveniet laborum porro natus ipsum perferendis. Facilis optio harum ipsa!
+        Amet voluptatibus, fugiat quibusdam nostrum optio at accusantium est sequi corrupti, sed nihil itaque enim. Nihil perferendis, veniam at, rerum numquam nostrum ducimus iusto, consequatur voluptas exercitationem inventore quis debitis.
+        Nemo eius culpa eligendi facilis voluptates asperiores, totam officia beatae labore. Sequi nulla consequatur distinctio at perspiciatis, omnis exercitationem unde, inventore tempore sit, minima culpa! Delectus ipsum accusantium voluptatem voluptates?
+        Sit, sapiente sed perferendis quasi in, reiciendis iure magni amet quia laborum possimus natus aliquam excepturi accusantium! Impedit explicabo corporis in tempore asperiores, obcaecati placeat blanditiis alias et esse repellendus!
+        Culpa, amet iste. Voluptatibus cumque mollitia magnam eligendi, dolorum consectetur sint doloribus repudiandae aspernatur maxime dignissimos! Natus ad maxime illum. Ex cumque dolores hic. Doloribus facilis aspernatur quia totam quasi?
+        Temporibus, qui? Quia deleniti id cum error voluptatibus tenetur ratione neque eveniet maxime? Illo veniam libero pariatur debitis consectetur suscipit dolorem similique vero. Dolorum voluptate porro assumenda doloremque veritatis totam.
+        Adipisci error labore a voluptate nam, deleniti fuga cumque quas expedita reiciendis sit repudiandae facilis eos odio deserunt quaerat iste ducimus rem neque quos atque quis, illum repellendus nemo! Animi.
+        Cum harum ut impedit doloribus voluptas vel architecto corrupti eveniet molestiae aliquam recusandae, porro, rem ipsa esse hic quod officiis consectetur nulla alias, perspiciatis molestias. Alias recusandae quos non eligendi!
+        Praesentium nisi aut itaque pariatur iusto earum distinctio voluptate? Ratione omnis blanditiis distinctio totam inventore a, odio dolore dignissimos. Sint rerum ratione minima deserunt aut. A maiores sequi ratione asperiores.
+        Fuga nostrum ipsam provident aliquam harum, rerum totam! A culpa architecto quo omnis itaque. Ullam ipsum dolorum odio illo dolorem magni ab sapiente quo, libero voluptatum omnis quaerat ut unde.
+    </div>
+    <div class="col ">
+        <h3>Column-2</h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cum, voluptate ab ut asperiores vero iusto, quaerat quae sint veritatis eveniet laborum porro natus ipsum perferendis. Facilis optio harum ipsa!
+        Amet voluptatibus, fugiat quibusdam nostrum optio at accusantium est sequi corrupti, sed nihil itaque enim. Nihil perferendis, veniam at, rerum numquam nostrum ducimus iusto, consequatur voluptas exercitationem inventore quis debitis.
+        Nemo eius culpa eligendi facilis voluptates asperiores, totam officia beatae labore. Sequi nulla consequatur distinctio at perspiciatis, omnis exercitationem unde, inventore tempore sit, minima culpa! Delectus ipsum accusantium voluptatem voluptates?
+        Sit, sapiente sed perferendis quasi in, reiciendis iure magni amet quia laborum possimus natus aliquam excepturi accusantium! Impedit explicabo corporis in tempore asperiores, obcaecati placeat blanditiis alias et esse repellendus!
+        Culpa, amet iste. Voluptatibus cumque mollitia magnam eligendi, dolorum consectetur sint doloribus repudiandae aspernatur maxime dignissimos! Natus ad maxime illum. Ex cumque dolores hic. Doloribus facilis aspernatur quia totam quasi?
+        Temporibus, qui? Quia deleniti id cum error voluptatibus tenetur ratione neque eveniet maxime? Illo veniam libero pariatur debitis consectetur suscipit dolorem similique vero. Dolorum voluptate porro assumenda doloremque veritatis totam.
+        Adipisci error labore a voluptate nam, deleniti fuga cumque quas expedita reiciendis sit repudiandae facilis eos odio deserunt quaerat iste ducimus rem neque quos atque quis, illum repellendus nemo! Animi.
+        Cum harum ut impedit doloribus voluptas vel architecto corrupti eveniet molestiae aliquam recusandae, porro, rem ipsa esse hic quod officiis consectetur nulla alias, perspiciatis molestias. Alias recusandae quos non eligendi!
+        Praesentium nisi aut itaque pariatur iusto earum distinctio voluptate? Ratione omnis blanditiis distinctio totam inventore a, odio dolore dignissimos. Sint rerum ratione minima deserunt aut. A maiores sequi ratione asperiores.
+        Fuga nostrum ipsam provident aliquam harum, rerum totam! A culpa architecto quo omnis itaque. Ullam ipsum dolorum odio illo dolorem magni ab sapiente quo, libero voluptatum omnis quaerat ut unde.   
+    </div>
+    <div class="col ">
+        <h3>Column-3</h3>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia cum, voluptate ab ut asperiores vero iusto, quaerat quae sint veritatis eveniet laborum porro natus ipsum perferendis. Facilis optio harum ipsa!
+        Amet voluptatibus, fugiat quibusdam nostrum optio at accusantium est sequi corrupti, sed nihil itaque enim. Nihil perferendis, veniam at, rerum numquam nostrum ducimus iusto, consequatur voluptas exercitationem inventore quis debitis.
+        Nemo eius culpa eligendi facilis voluptates asperiores, totam officia beatae labore. Sequi nulla consequatur distinctio at perspiciatis, omnis exercitationem unde, inventore tempore sit, minima culpa! Delectus ipsum accusantium voluptatem voluptates?
+        Sit, sapiente sed perferendis quasi in, reiciendis iure magni amet quia laborum possimus natus aliquam excepturi accusantium! Impedit explicabo corporis in tempore asperiores, obcaecati placeat blanditiis alias et esse repellendus!
+        Culpa, amet iste. Voluptatibus cumque mollitia magnam eligendi, dolorum consectetur sint doloribus repudiandae aspernatur maxime dignissimos! Natus ad maxime illum. Ex cumque dolores hic. Doloribus facilis aspernatur quia totam quasi?
+        Temporibus, qui? Quia deleniti id cum error voluptatibus tenetur ratione neque eveniet maxime? Illo veniam libero pariatur debitis consectetur suscipit dolorem similique vero. Dolorum voluptate porro assumenda doloremque veritatis totam.
+        Adipisci error labore a voluptate nam, deleniti fuga cumque quas expedita reiciendis sit repudiandae facilis eos odio deserunt quaerat iste ducimus rem neque quos atque quis, illum repellendus nemo! Animi.
+        Cum harum ut impedit doloribus voluptas vel architecto corrupti eveniet molestiae aliquam recusandae, porro, rem ipsa esse hic quod officiis consectetur nulla alias, perspiciatis molestias. Alias recusandae quos non eligendi!
+        Praesentium nisi aut itaque pariatur iusto earum distinctio voluptate? Ratione omnis blanditiis distinctio totam inventore a, odio dolore dignissimos. Sint rerum ratione minima deserunt aut. A maiores sequi ratione asperiores.
+        Fuga nostrum ipsam provident aliquam harum, rerum totam! A culpa architecto quo omnis itaque. Ullam ipsum dolorum odio illo dolorem magni ab sapiente quo, libero voluptatum omnis quaerat ut unde.
+        
+    </div>
+    <p class="clearfix">Clearfix class is mandotory</p>
+    
+</body>
+</html>

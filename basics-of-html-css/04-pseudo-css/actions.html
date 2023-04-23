@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Action Related Pseudo Classes</title>
+
+    <style>
+        h1:hover{
+            color: red;
+        }
+        :link{
+            color: orange;
+        }
+        :visited{
+            color: green;
+        }
+        [type="checkbox"]:checked{
+            visibility: hidden;
+        }
+        label input:focus{
+            background-color: yellow;
+        }
+        button:active{
+            background-color: red;
+        }
+        input:disabled{
+            background-color: blue;
+        }
+        div:focus-within{
+            background-color: red;
+        }
+    </style>
+
+
+</head>
+<body>
+    <h1>Action Related Pseudo Classes</h1>
+    <label for="">
+        <input type="checkbox">Remember me
+    </label> <br><br>
+    <label for=""> Clicked me to focus <input type="text"></label>
+     <br><br>
+    <button>Clicked me</button>
+     <br><br>
+    <a href="http://google.lk">Go to Google</a>
+     <br><br>
+    <a href="goto-hell">Hell</a> 
+    <br><br>
+    <a>I am link too, but I don't have href</a>
+    <br><br>
+    <input type="text" disabled="true" value="I am disabled"><br><br>
+    <div>
+        <input type="text">
+        <span>Why me!</span>
+    </div>
+
+
+    
+</body>
+</html>

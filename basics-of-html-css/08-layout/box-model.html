@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxed-Model</title>
+    <link rel="stylesheet" href="css/reset.css  ">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        h1{
+            background-color: yellow;
+            padding: 10px;
+            /* border-width: 10px;
+            border-style: solid;
+            border-color: blue; */
+            border: 10px solid blue;
+            font-weight: bold;
+            font-size: 2rem;
+            width: 50%;
+            position: relative;
+            z-index: 1;
+            
+        }
+        h1:last-of-type{
+            /* position: absolute; */
+            position:relative;
+            left: 40%;
+            top: -40px;
+            z-index: 0;
+        }
+        span{
+            background-color: red;
+            padding: 30px;
+            border: 10px solid orange;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Box Model</h1>
+    <h1>Box Model</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad neque fugit omnis vel asperiores saepe quis exercitationem velit eligendi, doloremque at tempore tempora ipsam minus fuga eveniet eum suscipit itaque.
+    Iste rerum velit laudantium, suscipit neque voluptates vitae est consequatur explicabo similique nostrum distinctio inventore debitis nobis? Recusandae, soluta id officiis laudantium voluptate ab nostrum commodi enim. Iste, minus atque.
+    Eveniet <span>mollitia</span> est nostrum quo quisquam recusandae beatae necessitatibus repellat placeat numquam suscipit, quos iusto deserunt minima quia cupiditate eos ut enim expedita laboriosam commodi nihil dolorem amet. Consectetur, aperiam?
+    Ut placeat voluptatem deserunt nihil assumenda ullam laudantium quae nemo doloremque labore recusandae temporibus minus voluptas, repellat officia eligendi eius consectetur esse quasi libero earum corrupti fugit et eaque. Sequi.
+    Deserunt reiciendis id nemo, nobis tempora sint voluptatibus repellendus totam earum placeat eos. Repellendus, corrupti ratione dolore suscipit tempore dolorum eligendi quod! Quos nulla illum, dolor perferendis facilis in nam.</p>
+    
+    
+</body>
+</html>

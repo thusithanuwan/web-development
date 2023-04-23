@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Selectors</title>
+
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        p * {
+            font-size: 24px;
+        }
+        ul{
+            background-color: lightgreen;
+            font-size: 18px;
+        }
+        #first-list{
+            font-weight: bold;
+        }
+        .highlight{
+            font-style: italic;
+            color: pink;
+            font-weight: bold;
+            font-size: 40px;
+            background-color: aquamarineC;
+        }
+        .random-clss{
+            text-decoration: underline;
+        }
+        button{
+            font-size: 20px;
+            border-radius: 25px;
+        }
+        [type="submit"]{
+            border-radius: 50%;
+        }
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Basic <span>Selectors</span> Example</h1>
+    <p>Lorem <span class="highlight random-clss">ipsum</span>  dolor <b> sit</b> amet consectetur <mark>adipisicing elit</mark>. Magni, dignissimos? Totam a non beatae, cumque nam aliquid enim qui suscipit fugiat veritatis architecto quae praesentium ratione est. Eum, rerum ratione?</p>
+    <ul id="first-list">
+        <li>First</li>
+        <li class="highlight">Second</li>
+        <li>Third</li>
+    </ul>
+    <button type="submit" class="highlight">Save</button>
+    <button type="reset">Reset</button>
+    <button type="button">button</button>
+
+    <p>Lorem <span>ipsum</span>  dolor, sit amet consectetur adipisicing elit. At nesciunt culpa laborum fugit, dolores voluptate illum. Qui assumenda iste corrupti temporibus est commodi sunt at debitis non, omnis minima sit.</p>
+    <ul>
+        <li>Second list 1</li>
+        <li>Second list 2</li>
+        <li>Second list 3</li>
+    </ul>
+    
+</body>
+</html>
