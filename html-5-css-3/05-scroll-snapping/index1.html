@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Snapping</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        
+        }
+        html,body{
+            padding: 0;
+            margin: 0;
+            scroll-snap-type: y proximity;  /* can also use mandotory */
+        }
+        .image{
+            height: 100vh;
+            scroll-snap-align: start;
+            background-size: cover;
+            background-position: center;
+        }
+        .image:first-child{
+            background-image: url(/img/1.jpeg);
+        }
+        .image:nth-child(2){
+            background-image: url(/img/2.jpeg);
+        }
+        .image:nth-child(3){
+            background-image: url(/img/3.jpeg);
+        }
+        .image:nth-child(4){
+            background-image: url(/img/4.jpeg);
+        }
+    </style>
+</head>
+<body>
+    <div class="image"></div>
+    <div class="image"></div>
+    <div class="image"></div>
+    <div class="image"></div>
+    
+</body>
+</html>

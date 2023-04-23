@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS 3 Animations</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #7ae3fb;
+        }
+        h1{
+            position: absolute;
+            animation-name: my-animation;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            display: none;
+        }
+        @keyframes my-animation{
+            from{
+                color:red;
+                transform: skew(50deg);
+                
+            }
+            25%{
+                color: green;
+            }
+            50%{
+                color: yellow;
+                transform: scale(2) rotate(50deg);
+            }
+            75%{
+                color:pink;
+            }
+            to{
+                color: black;
+            }
+
+            
+        }
+        img{
+            position: absolute;
+            animation-name: walking-man;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes walking-man{
+            from{
+               left: 0; 
+               transform: rotateY(0);
+            }
+            50%{
+                left: calc(100vw - 300px);
+            }
+            51%{
+                transform: rotateY(180deg);
+            }
+            to{
+                transform: rotateY(180deg); 
+                left: 0;
+            }
+
+
+        
+
+
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>CSS 3 Animations</h1>
+
+    
+    <img src="img/giphy.gif" alt="">
+   
+    
+</body>
+</html>

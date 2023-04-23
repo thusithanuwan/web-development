@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS3 - Flex-Layout</title>
+    <style>
+        #outer{
+            background-color: yellow;
+            height: 450px;
+            width: 450px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            /* align-content: center; */
+            align-items: center;
+
+        }
+        .inner{
+            background-color: red;
+            height: 100px;
+            width: 100px;
+            flex-shrink: 1;
+        }
+        .inner:last-child{
+            background-color: green;
+        }
+        .inner:nth-child(2){
+            background-color: green;
+        }
+        .inner:last-child{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS3 - Flex-Layout</h1>
+    <div id="outer">
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+
+    </div>
+</body>
+</html>

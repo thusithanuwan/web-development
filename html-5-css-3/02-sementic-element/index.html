@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sementic Element</title>
+    <style>
+        canvas{
+            width: 500px;
+            height: 500px;
+            background-color: yellow;
+            border-radius: 100%;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Sementic Elements</h1>
+    <header>This is a header</header>
+    <main>Main content goes here</main>
+    <section>New section</section>
+    <section>New section</section>
+    <section>New section</section>
+    <footer>This is a footer</footer>
+    <aside>Aside is here</aside>
+    <article>Article vs Section</article>
+    <nav>Navigation</nav>
+    <div>I am a DIV, what the hack?</div>
+    <menu>
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+
+    </menu>
+    <hr>
+    <h2>I am <strong>strong</strong> and <b>bold</b></h2>
+    <h3 id="abc">I am <em>emphasized</em> and <i>italic</i></h3>
+    <hr>
+    <canvas id="canvas"></canvas>
+
+    <script>
+            const abc = document.getElementById("abc")            /* java scipt */
+            abc.style.backgroundColor="green"
+
+            const canvas = document.getElementById("canvas");
+            const ctx = canvas.getContext("2d");
+
+            ctx.fillStyle = "Red";
+            ctx.fillRect(10, 10, 150, 100);
+    </script>
+
+
+
+    
+</body>
+</html>
