@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        body:not(h1) {
+            font-size: 14px;
+        }
+
+        main {
+            display: grid;
+            /*grid-template-columns: 200px 200px 200px 200px ;        or      */
+            /*grid-template-columns: minmax(100px,120px) 200px minmax(100px,120px) minmax(80px,120px); or  */
+            /*grid-template-columns: 1fr 2fr 1fr 200px;*/
+            /*grid-template-columns: repeat(4,1fr);*/
+            /*grid-template-columns: repeat(2,1fr) repeat(2,200px);*/
+            /*grid-template-columns: repeat(4, 1fr);*/
+            /*grid-auto-rows: 50px;*/
+            grid-template-rows: repeat(4,100px);
+            grid-auto-columns: 100px;
+            gap: 10px 20px;
+
+            /*grid-template: grid template rows / grid template columns;*/
+
+        }
+
+        header, footer{
+            align-self: center;
+        }
+
+        header {
+            /*grid-column: 1 / 5;*/
+            /*grid-column: -5 / -1;*/
+            grid-column: 1 / span 4;
+            background-color: yellow;
+        }
+
+        nav {
+            grid-row: 2 / span 2;
+            background-color: blue;
+        }
+
+        #slider {
+            grid-column: 2 / 5;
+            background-color: red;
+
+        }
+
+        #col1 {
+            background-color: aqua;
+        }
+
+        #col2 {
+            background-color: pink;
+        }
+
+        #col3 {
+            background-color: orange;
+        }
+
+        footer {
+            grid-column: 1 / 5;
+            background-color: brown;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+<h1>Grid-Layout - Grid Template Column Rows</h1>
+<main>
+    <header>Header</header>
+    <nav>Navigation</nav>
+    <section id="slider">Slider</section>
+    <section id="col1">col1</section>
+    <section id="col2">col2</section>
+    <section id="col3">col3</section>
+    <footer>Footer</footer>
+</main>
+</body>
+
+</html>

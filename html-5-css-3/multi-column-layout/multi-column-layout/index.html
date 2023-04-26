@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multi Column Layout</title>
+    <style>
+        main{
+            column-count: 3;
+            column-width: 200px;
+        }
+        main > div:first-child{
+            background-color: red;
+        }
+        main > div:nth-child(2){
+            background-color: cyan;
+        }
+        main> div:last-child{
+            background-color: yellow;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Multi Column Layout</h1>
+<main>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium amet architecto culpa, delectus deserunt dolor doloremque earum fuga molestiae nostrum provident quae qui quos recusandae sapiente temporibus voluptatem voluptates voluptatum.
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur commodi dolores dolorum esse ipsum itaque officiis temporibus vitae. Delectus dicta laudantium nulla perferendis quas qui repellendus, sint voluptatem. Culpa!
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam cum eaque eligendi eos est facere illo illum ipsa mollitia nam necessitatibus, nesciunt nihil officiis quia, quo quos sed tempora, voluptatem!
+    </div>
+</main>
+
+</body>
+</html>

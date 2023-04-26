@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid-Layout</title>
+    <style>
+        body:not(h1){
+            font-size: 14px;
+        }
+
+        main{
+            display: grid;
+            grid-template-areas:
+            "header header header header"
+            "nav slider slider slider"
+            "nav col1 col2 col3"
+            "footer footer footer footer";
+        }
+
+
+
+
+
+        header{
+            grid-area: header;
+            background-color: yellow;
+        }
+        nav{
+            grid-area: nav;
+            background-color: blue;
+        }
+        #slider{
+            grid-area: slider;
+            background-color: red;
+
+        }
+        #col1{
+            grid-area: col1;
+            background-color: aqua;
+        }
+        #col2{
+            grid-area: col2;
+            background-color: pink;
+        }
+        #col3{
+            grid-area: col3;
+            background-color: orange;
+        }
+        footer{
+            grid-area: footer;
+            background-color: brown;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <h1>Grid-Layout</h1>
+    <main>
+        <header>Header</header>
+        <nav>Navigation</nav>
+        <section id="slider">Slider</section>
+        <section id="col1">col1</section>
+        <section id="col2">col2</section>
+        <section id="col3">col3</section>
+        <footer>Footer</footer>
+    </main>
+
+
+</body>
+</html>
