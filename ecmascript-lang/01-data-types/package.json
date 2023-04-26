@@ -1,0 +1,13 @@
+{
+  "name": "01-data-types",
+  "version": "1.0.0",
+  "description": "Data Types, Literals, Variables, Constants",
+  "scripts": {
+    "create": "mkdir abc",
+    "delete": "rm -r abc",
+    "start-mysql": "service mysql start",
+    "stop-mysql": "service mysql stop"
+  },
+  "author": "Direct Entry Programe <dep@ijse.lk> (https://ijse.lk)",
+  "license": "MIT"
+}
