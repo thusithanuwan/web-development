@@ -1,0 +1,13 @@
+{
+    "id": "C001",
+    "name": "kasun sampath",
+    "address": {
+        "no": 15,
+        "street": "grace peries road"
+    },
+    "age": "17",
+    "contact": [
+        "077534243",
+        "4932498592359"
+    ]
+}

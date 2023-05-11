@@ -1,0 +1,26 @@
+[
+  {
+    "Customer-id": 1,
+    "name": "Kasun",
+    "address": "Galle",
+    "privateKey": "jio"
+  },
+  {
+    "Customer-id": 1,
+    "name": "Rasun",
+    "address": "Kandy",
+    "privateKey": "jkds"
+  },
+  {
+    "Customer-id": 1,
+    "name": "Nasun",
+    "address": "Colombo",
+    "privateKey": "dsf"
+  },
+  {
+    "Customer-id": 1,
+    "name": "Lasun",
+    "address": "Galle",
+    "privateKey": "jfdk"
+  }
+]
