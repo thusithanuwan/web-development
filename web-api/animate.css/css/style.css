@@ -1,0 +1,21 @@
+body{
+    padding: 10px;
+    text-align: center;
+}
+p input{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    outline: none;
+    text-align: center;
+    min-width: 300px;
+}
+p input:focus{
+    /* border-color: dodgerblue; */
+}
+
+.invalid{
+    border: 1px solid  red;
+}
