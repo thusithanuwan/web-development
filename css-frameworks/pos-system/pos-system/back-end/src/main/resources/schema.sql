@@ -7,3 +7,11 @@ create table if not exists customer(
 );
 
 alter table customer add constraint uk_contact unique (contact);
+
+create table if not exists item(
+    `code` int auto_increment primary key,
+    `description` varchar(250) not null,
+    quantity int not null,
+    price decimal not null
+
+);
