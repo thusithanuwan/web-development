@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class CustomerDTO {
+public class CustomerDTO { /* ! DTO - Data Transfer Object*/
     private Integer id;  // Why we get Integer
     private String name;
     private  String address;

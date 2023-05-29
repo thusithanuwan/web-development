@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @Configuration
 public class webAppConfig {
 
-    @Bean
+    @Bean  /* ! Register CustomerController with WebApp Application Context */
     public CustomerController customerController(){
         return  new CustomerController();
     }
