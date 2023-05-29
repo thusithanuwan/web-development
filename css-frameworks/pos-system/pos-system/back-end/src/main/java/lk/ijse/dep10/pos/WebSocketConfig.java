@@ -15,7 +15,7 @@ public class WebSocketConfig implements WebSocketConfigurer {
 
     @Override
     public void registerWebSocketHandlers(WebSocketHandlerRegistry registry) {
-        registry.addHandler(customerWSHandler(),"/customers-ws");
+        registry.addHandler(customerWSHandler(),"/customers-ws").setAllowedOrigins("*");  // ! like to access any origin
     }
     @Bean
     public CustomerWSHandler customerWSHandler(){
